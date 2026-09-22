@@ -10,11 +10,11 @@ public static void main(String[] args) {
 
 Scanner in = new Scanner(System.in);
 System.out.print("Введіть n: ");
-int n = in.nextInt();
+float n = in.nextFloat();
 System.out.print("Введіть m: ");
-int m = in.nextInt();
+float m = in.nextFloat();
 
-float result = (float) (((n + 1) * (m - 4) + n * m - Math.pow(n, 4) + Math.pow(m, 3)) / Math.pow((m + 2), 2));
+int result = (int) (((n + 1) * (m - 4) + n * m - Math.pow(n, 4) + Math.pow(m, 3)) / Math.pow((m + 2), 2));
 System.out.println("Результат=" + result);
 in.close();
 }
