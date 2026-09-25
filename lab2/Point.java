@@ -1,5 +1,3 @@
-package lab2;
-
 // Клас точки
 public class Point {
     private float x;
